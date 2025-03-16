@@ -1,5 +1,3 @@
-// project name : Linkify - a URL shotener web app
-
 // importing alert & sound & modal function
 import { alertFunction, danger, succses } from "./alertFunction";
 import { soundEffect } from "./soundEffect";
@@ -209,7 +207,7 @@ const qrButtonGenerator = (shortenedLink) => {
 				class="qr-btn"
 				>
 				<img
-				src="/assests/icons/qrcode.png"
+				src="./assests/icons/qrcode.png"
 				alt="qrcode"
 				class="w-full h-full" />
 				</button>	
